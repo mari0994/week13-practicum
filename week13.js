@@ -31,7 +31,7 @@ console.log(birthday);
 //Задание 6
 // Создайте переменную futureDate и присвойте ей будущую дату (например, через 1 месяц и 10 дней от текущей даты). Значение выведите в консоль.
 
-const futureDate = new Date (2024, 7, 14);
+const futureDate = new Date (2023, 11, 23);
 console.log(futureDate);
 
 //Задание 7
@@ -39,14 +39,14 @@ console.log(futureDate);
 
 const futureTimestamp = Date.parse(futureDate);
 const currentTimestamp = Date.parse(currentDate);
-const timestampDifference = futureDate - currentDate;
+const timestampDifference = futureTimestamp - currentTimestamp;
 const daysDifference = Math.floor(timestampDifference / (1000 * 60 * 60 * 24));
 console.log(daysDifference);
 
 //Задание 8
 // Создайте переменную pastDate и присвойте ей прошедшую дату (например, 5 дней назад от текущей даты). Значение выведите в консоль.
 
-const pastDate = new Date(2023, 6, 14);
+const pastDate = new Date(2023, 10, 3);
 console.log(pastDate);
 
 //Задание 9
@@ -60,7 +60,7 @@ console.log(pastDaysDifference);
 //Задание 10
 // Создайте переменную nextWeek и присвойте ей дату следующей недели. Значение выведите в консоль.
 
-const nextWeek = new Date("2023-07-20");
+const nextWeek = new Date("2023-11-20");
 console.log(nextWeek);
 
 //Задание 11
@@ -125,7 +125,7 @@ const number = 321;
 if (number > 0){
     console.log('Положительное число');
 } else {
-    console.log('Отрицатлеьное число');
+    console.log('Отрицательное число');
 }
 
 //Задание 19
@@ -207,9 +207,9 @@ if (number >= 100 && number<= 999){
 //Задание 27
 // Используя switch case, напишите программу, которая принимает на вход целое число от 1 до 7 и выводит в консоль название соответствующего дня недели (например, 1 - "Понедельник", 2 - "Вторник" и т.д.).
 
-let dayOfWeek
+let dayOfWeek;
 
-//dayOfWeek = '5';
+dayOfWeek = '5';
 
 switch (dayOfWeek) {
     case '1':
