@@ -25,13 +25,13 @@ console.log(currentDay);
 //Задание 5
 // Создайте переменную birthday и присвойте ей дату вашего дня рождения в текущем году. Значение выведите в консоль.
 
-const birthday = new Date (2023, 11, 12);
+const birthday = new Date (2024, 11, 12);
 console.log(birthday);
 
 //Задание 6
 // Создайте переменную futureDate и присвойте ей будущую дату (например, через 1 месяц и 10 дней от текущей даты). Значение выведите в консоль.
 
-const futureDate = new Date (2023, 11, 23);
+const futureDate = new Date (2024, 2, 2);
 console.log(futureDate);
 
 //Задание 7
@@ -46,7 +46,7 @@ console.log(daysDifference);
 //Задание 8
 // Создайте переменную pastDate и присвойте ей прошедшую дату (например, 5 дней назад от текущей даты). Значение выведите в консоль.
 
-const pastDate = new Date(2023, 10, 3);
+const pastDate = new Date(2024, 0, 28);
 console.log(pastDate);
 
 //Задание 9
@@ -60,7 +60,7 @@ console.log(pastDaysDifference);
 //Задание 10
 // Создайте переменную nextWeek и присвойте ей дату следующей недели. Значение выведите в консоль.
 
-const nextWeek = new Date("2023-11-20");
+const nextWeek = new Date(2024, 1, 6);
 console.log(nextWeek);
 
 //Задание 11
@@ -120,7 +120,7 @@ if (wrongDate === 'NaN') {
 //Задание 18
 // Используя цикл if...else, проверьте является ли переменная number положительным. Результат выведите в консоль.
 
-const number = 321;
+const number = 231;
 
 if (number > 0){
     console.log('Положительное число');
