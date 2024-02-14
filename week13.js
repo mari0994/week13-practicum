@@ -111,11 +111,12 @@ const date = '2023/06/15';
 let wrongDate = Date.parse(date);
 console.log(wrongDate);
 
-if (wrongDate === 'NaN') {
+if (isNaN(wrongDate)) {
     console.log('Неправильный формат даты')
 } else {
     console.log('Правильный формат даты');
 }
+//Вместо сравнения wrongDate === 'NaN' следует использовать isNaN(wrongDate), так как NaN – это специальное значение в JavaScript, которое не равно ничему другому, включая себя самого. Правильный способ проверки на NaN – использование глобальной функции isNaN().
 
 //Задание 18
 // Используя цикл if...else, проверьте является ли переменная number положительным. Результат выведите в консоль.
@@ -219,7 +220,7 @@ switch (dayOfWeek) {
         console.log('Вторник');
         break;
     case '3':
-        consoile.log('Среда');
+        console.log('Среда');
         break;
     case '4':
         console.log('Четверг');
